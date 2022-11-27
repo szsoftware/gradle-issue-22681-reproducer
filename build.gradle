@@ -1,0 +1,5 @@
+tasks.register("reproducer") {
+    doLast {
+        throw new RuntimeException("Reproducer")
+    }
+}
